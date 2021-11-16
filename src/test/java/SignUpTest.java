@@ -81,7 +81,7 @@ public class SignUpTest {
         Assert.assertEquals(originalTitle, expectedTitle);
 
         //Закрыть браузер
-        driver.quit();
+        //driver.quit();
 
     }
 

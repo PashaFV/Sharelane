@@ -14,7 +14,7 @@ public class SignUpTest {
 
 
     @Test
-    public void ZipCodeShouldAccept5Digits() {
+    public void zipCodeShouldAccept5Digits() {
         //Открытие страницы https://www.sharelane.com/cgi-bin/register.py
         System.setProperty("webdriver.chrome.driver", pathChromedriver);
         WebDriver driver = new ChromeDriver();
@@ -38,7 +38,7 @@ public class SignUpTest {
     }
 
     @Test
-    public void ZipCodeShouldAccept4Digits() {
+    public void zipCodeShouldAccept4Digits() {
         //Открытие страницы https://www.sharelane.com/cgi-bin/register.py
         System.setProperty("webdriver.chrome.driver", pathChromedriver);
         WebDriver driver = new ChromeDriver();
@@ -65,7 +65,7 @@ public class SignUpTest {
     }
 
     @Test
-    public void ZipCodeShouldAccept6Digits() {
+    public void zipCodeShouldAccept6Digits() {
         //Открытие страницы https://www.sharelane.com/cgi-bin/register.py
         System.setProperty("webdriver.chrome.driver", pathChromedriver);
         WebDriver driver = new ChromeDriver();
@@ -92,7 +92,7 @@ public class SignUpTest {
     }
 
     @Test
-    public void ZipCodeAccept0Digits() {
+    public void zipCodeAccept0Digits() {
         //Открытие страницы https://www.sharelane.com/cgi-bin/register.py
         System.setProperty("webdriver.chrome.driver", pathChromedriver);
         WebDriver driver = new ChromeDriver();
